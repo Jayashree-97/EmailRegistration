@@ -9,14 +9,14 @@ public class UserRegistration {
         System.out.println("-----------UC1-----------");
 
         Pattern pattern = Pattern.compile("^[A-Z][a-z]{3,}$");
-        Matcher matcher = pattern.matcher("Ganesh");
+        Matcher matcher = pattern.matcher("JayaShree");
         System.out.println(matcher.find());
 
         //UC2 LastName
         System.out.println("-----------UC2-----------");
 
         Pattern lastName = Pattern.compile("^[A-Z][a-z]{3,}$");
-        Matcher matcher1 = lastName.matcher("Moturu");
+        Matcher matcher1 = lastName.matcher("Kundanam");
         System.out.println(matcher1.find());
 
         //UC3 Email
@@ -29,7 +29,7 @@ public class UserRegistration {
         //UC4 MobileFormat
         System.out.println("-----------UC4------------");
         Pattern mobile = Pattern.compile("^(\\+91|0|91)?[9876][0-9]{9}$");
-        Matcher matcher3 = mobile.matcher("09949975752");
+        Matcher matcher3 = mobile.matcher("06302680849");
         System.out.println(matcher3.find());
 
         //UC5 PASSWORD - minimum 8 characters
